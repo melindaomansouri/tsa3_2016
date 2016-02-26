@@ -10,11 +10,14 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+	font-size:27px;
+	font-family: arial;
 }
 
 li {
     
     float: left;
+	
 }
 
 li a {
@@ -23,6 +26,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+	
 }
 
 
@@ -31,8 +35,9 @@ li a:hover {
 }
 .home {
 
-    margin-left: 440px;
+    margin-left: 160px;
 }
 
 
 
+:
