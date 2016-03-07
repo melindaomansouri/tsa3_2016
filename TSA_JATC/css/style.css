@@ -1,6 +1,6 @@
 ﻿* {
-	margin: 0;
-	padding: 0;
+	margin: ;
+	padding: ;
 }
 body {
 	margin: 0;
@@ -10,7 +10,7 @@ body {
 nav {
 	float: right;
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 	}
 ul {
 	list-style-type: none;
@@ -36,25 +36,31 @@ li a:hover {
 	background-color: #e60000;
 	}
 #logo {
-	float: left;
-	max-width: 20%;
-	max-height: 20%;
-	left-padding: 5px;
-}
-.Programs {
-	background-color: #000B45;
+	max-width: 25%;
+	max-height: 25%;
+	position: absolute;
+	margin-left: 3px;
+	margin-top: 3px;
 }
 #slider {
+}
+img {
 	max-width: 100%;
-	max-height: 50%;
+	
+
 }
 /*Body of the Document*/
+.Programs {
+	background-color: #000B45;
+	background: url("../images/program header.png") fixed 100%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
 .parallax {
-	background: url("") 100%;
 }
 .parallax-inner{
-	padding-top: ;
-	padding-bottom: ;
+	padding-top: 15%;
+	padding-bottom: 10%;
 }
 .parallax-inner_1 {
 	padding-top: ;
