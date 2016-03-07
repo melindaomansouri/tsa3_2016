@@ -1,41 +1,61 @@
 ﻿* {
+<<<<<<< HEAD
 	margin: ;
 	padding: ;
+=======
+    margin: 0;
+    padding: 0;
+>>>>>>> origin/master
 }
+
 body {
-	margin: 0;
-	padding: 0;
-	background-color: #b30000;
-	}
+    margin: 0;
+    padding: 0;
+    background-color: #b30000;
+}
+
 nav {
+<<<<<<< HEAD
 	float: right;
 	padding-top: 5px;
 	padding-bottom: 10px;
 	}
+=======
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+>>>>>>> origin/master
 ul {
-	list-style-type: none;
-	margin:0;
-	padding:0;
-	overflow: auto;
-	background-color: #b30000;
-	position: relative;
-	width: 100%;
-	font-family: ;
-	}
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #b30000;
+    position: relative;
+    width: 100%;
+    font-family:;
+}
+
 li {
-	float: left;
-	}
-li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	}
-li a:hover {
-	background-color: #e60000;
-	}
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color: #e60000;
+        }
+
 #logo {
+<<<<<<< HEAD
 	max-width: 25%;
 	max-height: 25%;
 	position: absolute;
@@ -48,7 +68,22 @@ img {
 	max-width: 100%;
 	
 
+=======
+    float: left;
+    max-width: 20%;
+    max-height: 20%;
+    left-padding: 5px;
 }
+
+.Programs {
+    background-color: #000B45;
+>>>>>>> origin/master
+}
+
+/*#slider {
+    max-width: 100%;
+    max-height: 50%;
+}*/
 /*Body of the Document*/
 .Programs {
 	background-color: #000B45;
@@ -57,20 +92,64 @@ img {
 	padding-bottom: 3%;
 }
 .parallax {
+<<<<<<< HEAD
 }
 .parallax-inner{
 	padding-top: 15%;
 	padding-bottom: 10%;
+=======
+    background: url("") 100%;
 }
+
+.parallax-inner {
+    padding-top:;
+    padding-bottom:;
+>>>>>>> origin/master
+}
+
 .parallax-inner_1 {
-	padding-top: ;
-	padding-bottom: ;
+    padding-top:;
+    padding-bottom:;
 }
+
 .parallax_2 {
-	background: url("") 100%;
+    background: url("") 100%;
 }
+
 .parallax-inner_2 {
-	padding-top: ;
-	padding-bottom: ;
+    padding-top:;
+    padding-bottom:;
 }
+
+/*.slides {
+    max-width: 400px;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+    .slides div {
+        background-color: white;
+        width: 100%;
+        display: inline-block;
+        display: none;
+    }
+
+    .slides img {
+        width: 100%;
+        height: auto;
+    }
+
+button {
+    position: absolute;
+}
+
+.next {
+    right: 5px;
+}
+
+.prev {
+    left: 5px;
+}*/
 /*End of Body*/
