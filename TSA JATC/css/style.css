@@ -1,10 +1,16 @@
-﻿body {
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+body {
 	margin: 0;
 	padding: 0;
 	background-color: #b30000;
 	}
 nav {
 	float: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	}
 ul {
 	list-style-type: none;
@@ -29,3 +35,36 @@ li a {
 li a:hover {
 	background-color: #e60000;
 	}
+#logo {
+	float: left;
+	max-width: 20%;
+	max-height: 20%;
+	left-padding: 5px;
+}
+.Programs {
+	background-color: #000B45;
+}
+#slider {
+	max-width: 100%;
+	max-height: 50%;
+}
+/*Body of the Document*/
+.parallax {
+	background: url("") 100%;
+}
+.parallax-inner{
+	padding-top: ;
+	padding-bottom: ;
+}
+.parallax-inner_1 {
+	padding-top: ;
+	padding-bottom: ;
+}
+.parallax_2 {
+	background: url("") 100%;
+}
+.parallax-inner_2 {
+	padding-top: ;
+	padding-bottom: ;
+}
+/*End of Body*/
