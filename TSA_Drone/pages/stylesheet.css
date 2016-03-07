@@ -1,6 +1,15 @@
+* {
+	box-sizing: border-box;
+	
+}
 #yes {
-		color: #ff0000;
-		text-align: left;
+		
+		float: left;
+		position: absolute;
+		width: 40%;
+		height: 60%;
+		padding-left: 50px;
+		padding-top: 50px;
 		
 }
 ul {
@@ -14,11 +23,13 @@ ul {
     width: 100%;
 	font-size:27px;
 	font-family: arial;
+	
 }
 
 li {
     
     float: left;
+	
 	
 }
 
@@ -29,31 +40,80 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 	
+	
 }
 
 
 li a:hover {
     background-color: #111;
+	
 }
 .home {
 
     margin-left: 160px;
+	
 }
 #image {
-	padding: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 100%;
+	height: 850px;
+	
+	
 	
 }
 body {
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
+	
 	
 }
-.drone {
+#drone {
 	
-	text-align: right;
+	float: right;
+	width: 53%;
+	height: 53%;
+	padding-right: 100px;
+	padding-top: 65px;
+	
+	
+}
+#tech {
+	font-size: 300%;
+	padding-left: 13%;
+	
+}
+#his {
+	padding-left: 20%;
+	padding-top: 2%;
+	
+
+}
+.par {
+	text-align: center;
+	padding-right: 35%;
+	position: relative;
+	
+	
+
+}
+#p1 {
+	padding-top: 4%;
+
+}
+#p2 {
+	padding-top: 1%;
+	
+
+}
+#in {
+	height: 30%;
+	width: 30%;
+	float: right; 
+	padding-right: 100px;
+	padding-top: 100px;
+	position: relative; 
 	
 }
 
 
-
-:
