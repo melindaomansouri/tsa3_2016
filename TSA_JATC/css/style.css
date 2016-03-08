@@ -100,10 +100,15 @@ img {
     padding-top:;
     padding-bottom:;
 }
-#courseDescription{
-	font-color: #ffffff;
-	}
-
+#courseDescription p {
+	color: #ffffff;
+}
+#courseDescription h4 {
+	color: #ffffff;
+}
+#teacherName  {
+	color: #ffffff;
+}
 /*.slides {
     max-width: 400px;
     background-color: black;
