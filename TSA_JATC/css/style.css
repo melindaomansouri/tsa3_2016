@@ -100,6 +100,9 @@ img {
     padding-top:;
     padding-bottom:;
 }
+#courseDescription{
+	font-color: #ffffff;
+	}
 
 /*.slides {
     max-width: 400px;
