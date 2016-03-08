@@ -4,12 +4,13 @@
 }
 #yes {
 		
-		float: left;
-		position: absolute;
-		width: 40%;
-		height: 60%;
-		padding-left: 50px;
-		padding-top: 50px;
+	float: left;
+	position: center
+	width: 40%;
+	height: 60%;
+	padding-left: 50px;
+	padding-top: 75px;
+	font-size: 25px;
 		
 }
 ul {
@@ -18,7 +19,7 @@ ul {
     padding-top: 0px;
     overflow: hidden;
     background-color: #333;
-    position: relative;
+    position: center;
     top: 0px;
     width: 100%;
 	font-size:27px;
@@ -86,6 +87,7 @@ body {
 #his {
 	padding-left: 20%;
 	padding-top: 2%;
+	position: center;
 	
 
 }
@@ -113,7 +115,43 @@ body {
 	padding-right: 100px;
 	padding-top: 100px;
 	position: relative; 
+}
+#saf {
+	padding-top: 2%;
+	padding-left: 1%;
+	font-family:Georgia, serif;
+	font-size: 60px;
+}
+#no {
+	padding-left:10%;
+	padding-right: 3%;
+	padding-top: 3%;
+	float: right;
+	width: 30%;
+	height: 30%;
+}
+#safpar{
+	padding-top: 2%;
+	padding-left: 2%;
+	font-size: 23px;
+}
+#ol{
 	
 }
-
-
+.button {
+    background-color: #000000; /* black */
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 65px 1450px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button5:hover {
+    background-color: #555555;
+    color: white;
+}
