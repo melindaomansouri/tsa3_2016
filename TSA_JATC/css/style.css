@@ -1,38 +1,26 @@
 ﻿* {
-<<<<<<< HEAD
-	margin: ;
-	padding: ;
-=======
     margin: 0;
     padding: 0;
->>>>>>> origin/master
 }
 
 body {
     margin: 0;
     padding: 0;
-    background-color: #f95549;
+    background-color: #005dab;
 }
 
 nav {
-<<<<<<< HEAD
 	float: right;
 	padding-top: 5px;
 	padding-bottom: 10px;
-	}
-=======
-    float: right;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
->>>>>>> origin/master
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: auto;
-    background-color: #b30000;
+    background-color: #005dab;
     position: relative;
     width: 100%;
     font-family:;
@@ -42,20 +30,18 @@ li {
     float: left;
 }
 
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-
-        li a:hover {
-            background-color: #e60000;
+li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	}
+nav li a:hover {
+      background-color: #e60000;
         }
 
 #logo {
-<<<<<<< HEAD
 	max-width: 25%;
 	max-height: 25%;
 	position: absolute;
@@ -66,9 +52,6 @@ li {
 }
 img {
 	max-width: 100%;
-	
-
-=======
     float: left;
     max-width: 20%;
     max-height: 20%;
@@ -77,7 +60,6 @@ img {
 
 .Programs {
     background-color: #000B45;
->>>>>>> origin/master
 }
 
 #images {
@@ -92,19 +74,17 @@ img {
 	padding-bottom: 3%;
 }
 .parallax {
-<<<<<<< HEAD
 }
 .parallax-inner{
 	padding-top: 15%;
 	padding-bottom: 10%;
-=======
     background: url("") 100%;
 }
 
 .parallax-inner {
     padding-top:;
     padding-bottom:;
->>>>>>> origin/master
+
 }
 
 .parallax-inner_1 {
