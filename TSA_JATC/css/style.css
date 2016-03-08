@@ -1,6 +1,11 @@
 ﻿* {
+<<<<<<< HEAD
+	margin: ;
+	padding: ;
+=======
     margin: 0;
     padding: 0;
+>>>>>>> origin/master
 }
 
 body {
@@ -10,11 +15,18 @@ body {
 }
 
 nav {
+<<<<<<< HEAD
+	float: right;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	}
+=======
     float: right;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
+>>>>>>> origin/master
 ul {
     list-style-type: none;
     margin: 0;
@@ -43,6 +55,20 @@ li {
         }
 
 #logo {
+<<<<<<< HEAD
+	max-width: 25%;
+	max-height: 25%;
+	position: absolute;
+	margin-left: 3px;
+	margin-top: 3px;
+}
+#slider {
+}
+img {
+	max-width: 100%;
+	
+
+=======
     float: left;
     max-width: 20%;
     max-height: 20%;
@@ -51,6 +77,7 @@ li {
 
 .Programs {
     background-color: #000B45;
+>>>>>>> origin/master
 }
 
 /*#slider {
@@ -58,13 +85,26 @@ li {
     max-height: 50%;
 }*/
 /*Body of the Document*/
+.Programs {
+	background-color: #000B45;
+	background: url("../images/program header.png") fixed 100%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
 .parallax {
+<<<<<<< HEAD
+}
+.parallax-inner{
+	padding-top: 15%;
+	padding-bottom: 10%;
+=======
     background: url("") 100%;
 }
 
 .parallax-inner {
     padding-top:;
     padding-bottom:;
+>>>>>>> origin/master
 }
 
 .parallax-inner_1 {
