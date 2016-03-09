@@ -11,7 +11,7 @@
 	
 }
 
-#slider, #slider div.sliderInner {
+#slider, #slider div.sliderInner  img{
     width:100%;height:850px;/* Must be the same size as the slider images */
     padding: 0px;
 	float: left;
