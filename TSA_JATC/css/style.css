@@ -68,7 +68,7 @@ nav li a:hover {
 /*Body of the Document*/
 .Programs {
     background-color: #000B45;
-    background: url("../images/program header.png") fixed 100%;
+    background: url("") fixed 100%;
     padding-top: 3%;
     padding-bottom: 3%;
 }
@@ -100,14 +100,23 @@ nav li a:hover {
     padding-top:;
     padding-bottom:;
 }
-
 #courseDescription {
-	font-size: 25px;
-	color: #fff;
-	width: auto;
-	margin: 1em auto;
-	padding: 35px;
+	width: 600px;
+	margin: 5em auto;
+	padding: 50px;
 	background-color: #003f74;
 	border-radius: 1em;
+}
+@media (max-width: 700px) {
+#courseDescription p {
+	font-size: 25px;
+	color: #ffffff;
+	}
+#courseDescription div {
+	width: auto;
+	margin: 0 auto;
+	border-radius: 0;
+	padding: 1em;
+	}
 }
 /*End of Body*/
