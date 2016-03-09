@@ -105,15 +105,18 @@ img {
     padding-top:;
     padding-bottom:;
 }
-<<<<<<< HEAD
 #courseDescription p {
 	color: #ffffff;
+	padding-left: 1%;
 }
 #courseDescription h4 {
 	color: #ffffff;
+	padding-left:1%;
 }
 #teacherName  {
 	color: #ffffff;
+	padding-left:1%;
+	padding-top:1%;
 }
 /*.slides {
     max-width: 400px;
@@ -139,7 +142,6 @@ button {
     position: absolute;
 }
 =======
->>>>>>> origin/master
 
 #courseDescription {
     font-color: #ffffff;
