@@ -2,19 +2,23 @@
     margin: 0;
     padding: 0;
 }
-
+h4 {
+	font-family: Poppins;
+	font-size: 30px;
+}
+p {
+	font-family: Actor;
+	font-color: #fff;
+	}
+#header img {
+	max-width: 100%;
+	height: auto;
+}
 body {
     margin: 0;
     padding: 0;
     background-color: #005dab;
 }
-
-nav {
-    float: right;
-    padding-top: 5px;
-    padding-bottom: 10px;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -29,14 +33,14 @@ ul {
 li {
     float: left;
 }
-
-    li a {
+li a {
         display: block;
         color: white;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-    }
+		font-family: Poppins;
+}
 
 nav li a:hover {
     background-color: #045192;
@@ -52,15 +56,6 @@ nav li a:hover {
 
 #slider {
 }
-
-img {
-    max-width: 100%;
-    float: left;
-    max-width: 20%;
-    max-height: 20%;
-    left-padding: 5px;
-}
-
 .Programs {
     background-color: #000B45;
 }
@@ -107,6 +102,12 @@ img {
 }
 
 #courseDescription {
-    font-color: #ffffff;
+	font-size: 25px;
+	color: #fff;
+	width: auto;
+	margin: 1em auto;
+	padding: 35px;
+	background-color: #003f74;
+	border-radius: 1em;
 }
 /*End of Body*/
