@@ -8,10 +8,11 @@
     position:relative;
     /*width:700px;*/
     margin:0 auto; /*center-aligned*/
+	
 }
 
 #slider, #slider div.sliderInner {
-    width:700px;height:306px;/* Must be the same size as the slider images */
+    width:1100px;height:1100px;/* Must be the same size as the slider images */ /*changes slider size*/
 }
 
 #slider {

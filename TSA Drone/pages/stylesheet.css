@@ -177,8 +177,8 @@ body {
 }
 =======
 #images {
-    width: 200%;
-    height: 200%;
+    max-width: 200%;
+    max-height: 200%;
 }
 
 >>>>>>> origin/master
