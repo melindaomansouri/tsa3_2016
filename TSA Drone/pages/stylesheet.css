@@ -3,6 +3,7 @@
 }
 
 #yes {
+
 		
 	float: left;
 	position: center
@@ -32,7 +33,7 @@ ul {
     top: 0px;
     width: 90%;
 	font-size:34px;
-	font-family: georgia;
+	font-family: ubuntu,700;
 	float: left;
 	padding-left: 10%;
 	
@@ -99,26 +100,22 @@ body {
 #tech {
 	font-size: 300%;
 	padding-left: 13%;
-	
+
 }
 #his {
-	padding-left: 20%;
-	padding-top: 2%;
+	padding-left: 22%;
+	padding-top: 1%;
 	position: center;
-	
-
+	margin: 65px 65px;
+	font-size: 27px;
 }
 .par {
-	text-align: center;
-	padding-right: 35%;
-	position: relative;
-	font-size: 25px;
-	
-	
-
+	padding-top: 2%;
+	padding-left: 2%;
+	font-size: 23px;
 }
 #p1 {
-	padding-top: 4%;
+	padding-top: 0%;
 
 }
 #p2 {
@@ -130,14 +127,15 @@ body {
 	height: 30%;
 	width: 30%;
 	float: right; 
-	padding-right: 100px;
-	padding-top: 100px;
+	padding-right: 3%;
+	padding-top: 0%;
+	padding-left:3%;
 	position: relative; 
 }
 #saf {
 	padding-top: 2%;
 	padding-left: 1%;
-	font-family:Georgia, serif;
+	font-family:ubuntu, 500;
 	font-size: 60px;
 }
 #no {
@@ -153,9 +151,15 @@ body {
 	padding-left: 2%;
 	font-size: 23px;
 }
-#ol{
-	
+#at{
+	padding-top: 2%;
+	padding-left: 1%;
+	font-family:ubuntu,500;
+	font-size: 60px;
 }
+
+
+
 
 .button {
     background-color: #000000; /* black */
