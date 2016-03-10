@@ -134,14 +134,14 @@ body {
 }
 #saf {
 	padding-top: 2%;
-	padding-left: 1%;
+	padding-left: 25%;
 	font-family:ubuntu, 500;
 	font-size: 60px;
 }
 #no {
 	padding-left:10%;
 	padding-right: 3%;
-	padding-top: 3%;
+	padding-top: 1%;
 	float: right;
 	width: 30%;
 	height: 30%;
@@ -153,7 +153,7 @@ body {
 }
 #at{
 	padding-top: 2%;
-	padding-left: 1%;
+	padding-left: 12%;
 	font-family:ubuntu,500;
 	font-size: 60px;
 }
@@ -182,8 +182,25 @@ body {
     max-width: 200%;
     max-height: 200%;
 }
+#no {
+	padding-top: 10%;
+	padding-right: 10%;
+	height:30%;
+	width:30%;
+	
+}
+#go {
+	padding-left: 7%;
+	padding-top: 7%;
+	
+}
 .simages { 
 
+}
+#para {
+	font-size: 23px;
+	padding-left: 33px;
+	
 }
 
 
