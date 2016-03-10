@@ -69,6 +69,11 @@ img {
     max-width: 100%;
     max-height: 50%;
 }
+#teachPics{
+	border-radius: 50% 50% 50% 50%;
+	width:150px;
+	height:150px;
+}
 
 /*Body of the Document*/
 .Programs {
@@ -141,7 +146,7 @@ img {
 button {
     position: absolute;
 }
-=======
+
 
 #courseDescription {
     font-color: #ffffff;
