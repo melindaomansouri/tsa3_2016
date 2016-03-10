@@ -41,17 +41,25 @@ li a {
         text-decoration: none;
 		font-family: Poppins;
 }
-
+nav {
+	z-index: 0;
+	font-size: 20px;
+}
 nav li a:hover {
     background-color: #045192;
 }
 
 #logo {
-    max-width: 25%;
-    max-height: 25%;
-    position: absolute;
     margin-left: 3px;
     margin-top: 3px;
+}
+#logo img {
+	position: absolute;
+	right: 5px;
+	top: 3px;
+	z-index: 1;
+	max-width: 15%;
+    max-height: 15%;
 }
 
 #slider {
