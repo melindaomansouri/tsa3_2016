@@ -3,7 +3,10 @@
 }
 
 #yes {
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 		
 	float: left;
 	position: center
@@ -157,6 +160,10 @@ body {
 	font-family:ubuntu,500;
 	font-size: 60px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 .button {
     background-color: #000000; /* black */
     border: none;
@@ -175,7 +182,12 @@ body {
     color: white;
 }
 #images {
-    width: 200%;
-    height: 200%;
+    max-width: 200%;
+    max-height: 200%;
 }
+.simages { 
+
+}
+
+
 
