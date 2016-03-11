@@ -12,7 +12,6 @@ p {
 	}
 #header img {
 	max-width: 100%;
-	height: auto;
 }
 body {
     margin: 0;
@@ -74,8 +73,8 @@ nav li a:hover {
 }
 #teachPics{
 	border-radius: 50% 50% 50% 50%;
-	width:150px;
-	height:150px;
+	width:175px;
+	height:175px;
 }
 
 /*Body of the Document*/
