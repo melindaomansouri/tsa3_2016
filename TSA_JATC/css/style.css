@@ -12,6 +12,7 @@ p {
 	}
 #header img {
 	max-width: 100%;
+	height: auto;
 }
 body {
     margin: 0;
@@ -148,12 +149,6 @@ nav li a:hover {
 button {
     position: absolute;
 }
-<<<<<<< HEAD
-
-
->>>>>>> origin/master
-=======
->>>>>>> origin/master
 #courseDescription {
 	width: 600px;
 	margin: 5em auto;
