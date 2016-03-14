@@ -2,22 +2,27 @@
     margin: 0;
     padding: 0;
 }
+
 h4 {
-	font-family: Poppins;
-	font-size: 30px;
+    font-family: Poppins;
+    font-size: 30px;
 }
+
 p {
-	font-family: Actor;
-	font-color: #fff;
-	}
-#header img {
-	max-width: 100%;
+    font-family: Actor;
+    font-color: #fff;
 }
+
+#header img {
+    max-width: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: #005dab;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -32,37 +37,42 @@ ul {
 li {
     float: left;
 }
-li a {
+
+    li a {
         display: block;
         color: white;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-		font-family: Poppins;
-}
+        font-family: Poppins;
+    }
+
 nav {
-	z-index: 0;
-	font-size: 20px;
+    z-index: 0;
+    font-size: 20px;
 }
-nav li a:hover {
-    background-color: #045192;
-}
+
+    nav li a:hover {
+        background-color: #045192;
+    }
 
 #logo {
     margin-left: 3px;
     margin-top: 3px;
 }
-#logo img {
-	position: absolute;
-	right: 5px;
-	top: 3px;
-	z-index: 1;
-	max-width: 15%;
-    max-height: 15%;
-}
+
+    #logo img {
+        position: absolute;
+        right: 5px;
+        top: 3px;
+        z-index: 1;
+        max-width: 15%;
+        max-height: 15%;
+    }
 
 #slider {
 }
+
 .Programs {
     background-color: #000B45;
 }
@@ -71,10 +81,11 @@ nav li a:hover {
     max-width: 100%;
     max-height: 50%;
 }
-#teachPics{
-	border-radius: 50% 50% 50% 50%;
-	width:175px;
-	height:175px;
+
+#teachPics {
+    border-radius: 50% 50% 50% 50%;
+    width: 175px;
+    height: 175px;
 }
 
 /*Body of the Document*/
@@ -112,65 +123,20 @@ nav li a:hover {
     padding-top:;
     padding-bottom:;
 }
+
 #courseDescription p {
-	color: #ffffff;
-	padding-left: 1%;
+    color: #ffffff;
+    padding-left: 1%;
 }
+
 #courseDescription h4 {
-	color: #ffffff;
-	padding-left:1%;
-}
-#teacherName  {
-	color: #ffffff;
-	padding-left:1%;
-	padding-top:1%;
-}
-/*.slides {
-    max-width: 400px;
-    background-color: black;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
+    color: #ffffff;
+    padding-left: 1%;
 }
 
-    .slides div {
-        background-color: white;
-        width: 100%;
-        display: inline-block;
-        display: none;
-    }
-
-    .slides img {
-        width: 100%;
-        height: auto;
-    }
-
-button {
-    position: absolute;
-}
-<<<<<<< HEAD
-
-
->>>>>>> origin/master
-=======
->>>>>>> origin/master
-#courseDescription {
-	width: 600px;
-	margin: 5em auto;
-	padding: 50px;
-	background-color: #003f74;
-	border-radius: 1em;
-}
-@media (max-width: 700px) {
-#courseDescription p {
-	font-size: 25px;
-	color: #ffffff;
-	}
-#courseDescription div {
-	width: auto;
-	margin: 0 auto;
-	border-radius: 0;
-	padding: 1em;
-	}
+#teacherName {
+    color: #ffffff;
+    padding-left: 1%;
+    padding-top: 1%;
 }
 /*End of Body*/
