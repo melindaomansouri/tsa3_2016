@@ -9,10 +9,16 @@ h4 {
 }
 
 p {
+<<<<<<< HEAD
+	font-family: Actor;
+	font-color: #ffffff;
+	}
+=======
     font-family: Actor;
     font-color: #ffffff;
 }
 
+>>>>>>> origin/master
 #header img {
     max-width: 100%;
 }
@@ -97,9 +103,36 @@ nav {
 	margin: 15px;
 	border: 10px solid #ffffff;
 }
+<<<<<<< HEAD
 #Programs {
 	padding-left:345px;
 	}
+=======
+#tsaFront h4 {
+	font-family: Poppins;
+	font-size:25px;
+	color:#ffffff;
+	padding-left:1%;
+}
+#tsaFront p{
+	font-family: Actor;
+	font-size:20px;
+	color:#ffffff;
+	padding-left:1%;
+}
+#tsaComps h4 {
+		font-family:Poppins;
+		font-size: 25px;
+		color:#ffffff;
+		padding-left:1%;
+}
+#tsaComps p {
+	font-family: Actor;
+	font-size: 20px;
+	color:#ffffff;
+	padding-left:1%;
+}
+>>>>>>> origin/master
 
 #tsaFront h4 {
     font-family: Poppins;
