@@ -15,7 +15,7 @@ p {
 	}
 =======
     font-family: Actor;
-    font-color: #fff;
+    font-color: #ffffff;
 }
 
 >>>>>>> origin/master
@@ -116,6 +116,20 @@ nav {
 	font-size: 20px;
 	color:#ffffff;
 	padding-left:1%;
+}
+
+#tsaFront h4 {
+    font-family: Poppins;
+    font-size: 25px;
+    color: #ffffff;
+    padding-left: 1%;
+}
+
+#tsaFront p {
+    font-family: Actor;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 1%;
 }
 
 /*Body of the Document*/
