@@ -36,6 +36,7 @@ ul {
 
 li {
     float: left;
+	text-decoration: none;
 }
 
     li a {
@@ -65,7 +66,7 @@ nav {
         position: absolute;
         right: 5px;
         top: 3px;
-        z-index: 1;
+        z-index: 3;
         max-width: 15%;
         max-height: 15%;
     }
@@ -89,25 +90,23 @@ nav {
 	Margin: 20px;
 	border: 10px solid #ffffff;
 }
-#Programs {
-	width: 100%;
-	}
 #programPics {
     border-radius: 25% 25% 50% 50%;
     width: 200px;
     height: 175px;
-	Margin: 20px;
+	margin: 15px;
 	border: 10px solid #ffffff;
-	float: left;
-	position: relative;
-	z-index: 1;
 }
+#Programs {
+	padding-left:345px;
+	}
 
 #tsaFront h4 {
     font-family: Poppins;
     font-size: 25px;
     color: #ffffff;
-	z-index: 0;
+	padding-left: 5px;
+	text-align: center;
 }
 
 #tsaFront p {
@@ -115,6 +114,7 @@ nav {
     font-size: 20px;
     color: #ffffff;
     padding-left: 1%;
+	text-align: center;
 }
 
 /*Body of the Document*/
@@ -155,7 +155,10 @@ nav {
 
 #courseDescription p {
     color: #ffffff;
-    padding-left: 1%;
+    padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom:40px;
+	font-size: 20px;
 }
 
 #courseDescription h4 {
@@ -168,5 +171,8 @@ nav {
     padding-left: 1%;
     padding-top: 1%;
 }
+#teacherInfo {
+	float: right;
+	}
 /*End of Body*/
 
